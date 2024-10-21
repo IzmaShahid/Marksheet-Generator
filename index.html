@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marksheet Generator</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Marksheet Generator</h2>
+
+        <input type="number" id="subject1" placeholder="Marks in Subject 1" min="0" max="100">
+        <input type="number" id="subject2" placeholder="Marks in Subject 2" min="0" max="100">
+        <input type="number" id="subject3" placeholder="Marks in Subject 3" min="0" max="100">
+        <input type="number" id="subject4" placeholder="Marks in Subject 4" min="0" max="100">
+        <input type="number" id="subject5" placeholder="Marks in Subject 5" min="0" max="100">
+        
+        <button onclick="generateMarksheet()">Generate Marksheet</button>
+
+        <div class="result" id="result">
+            <!-- Result will appear here -->
+        </div>
+    </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
